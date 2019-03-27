@@ -11,14 +11,22 @@ int* rotLeft(int a_count, int* a, int d, int* result_count)
 	int counter = 0;
 	while (counter != d)
 	{
-		for (int i = 0; i < d; i++)
+		tmp = a[0];
+		for (int i = 0; i < a_count - 1; i++)
 		{
-			tmp = a[0];
-			if(i != d)a[i] = a[i + 1];
-			else { a[i] == tmp; }
+			a[i] = a[i + 1];
+			cout << a[i];
 		}
+		a[a_count - 1] = tmp;
+		cout << a[a_count - 1];
 		cout << endl;
 		counter++;
+	}
+
+	cout << "after sorting: ";
+	for (int i = 0; i < a_count; i++)
+	{
+		cout << a[i];
 	}
 
 	return 0;
