@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\kouhai\documents\github\hackerrank\hackerrank\stockmax\main.cpp(42): warning C4244: 'return': conversion from 'unsigned __int64' to 'int', possible loss of data
+c:\users\kouhai\documents\github\hackerrank\hackerrank\stockmax\main.cpp(66): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type 'unsigned __int64'
+  c:\users\kouhai\documents\github\hackerrank\hackerrank\stockmax\main.cpp(66): note: consider using '%llu' in the format string
+  c:\users\kouhai\documents\github\hackerrank\hackerrank\stockmax\main.cpp(66): note: consider using '%I64u' in the format string
+  stockmax.vcxproj -> C:\Users\Kouhai\Documents\GitHub\Hackerrank\Hackerrank\Debug\stockmax.exe
