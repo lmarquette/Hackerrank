@@ -14,14 +14,14 @@ int* rotLeft(int a_count, int* a, int d, int* result_count)
 	for (int i = 0; i < (a_count - d); i++)
 	{
 		b[counter] = a[i + d]; //grabs last value in array a
-		//cout << b[counter];
+		cout << b[counter];
 		counter++;
 	}
 	
 	for (int i = 0; i < d; i++)
 	{
 		b[counter] = a[i];
-		//cout << b[counter];
+		cout << b[counter];
 		counter++;
 	}
 

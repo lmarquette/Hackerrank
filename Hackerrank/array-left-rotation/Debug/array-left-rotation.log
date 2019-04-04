@@ -1,3 +1,3 @@
 ﻿  main.cpp
-e:\github\hackerrank\hackerrank\array-left-rotation\main.cpp(11): warning C4101: 'tmp': unreferenced local variable
-  array-left-rotation.vcxproj -> E:\Github\Hackerrank\Hackerrank\Debug\array-left-rotation.exe
+c:\users\kouhai\documents\github\hackerrank\hackerrank\array-left-rotation\main.cpp(11): warning C4101: 'tmp': unreferenced local variable
+  array-left-rotation.vcxproj -> C:\Users\Kouhai\Documents\GitHub\Hackerrank\Hackerrank\Debug\array-left-rotation.exe
