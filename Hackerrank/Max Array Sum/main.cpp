@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 #include <stdio.h>
 using namespace std;
 
@@ -20,7 +21,7 @@ int main()
 
 	int r = maxSubsetSum(n_data, data);
 
-	printf("%d\n", r);
+	//printf("%d\n", r);
 	getchar();
 	return 0;
 }
