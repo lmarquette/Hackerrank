@@ -6,7 +6,8 @@
 using namespace std;
 
 int migratoryBirds(int arr_count, int* arr) {
-	int max = 0;
+	int highest = 0;
+	int lowest = 0;
 	int *tmp_arr = (int*)malloc(sizeof(int) * arr_count);
 
 	for (int i = 0; i < arr_count; i++)
@@ -16,16 +17,27 @@ int migratoryBirds(int arr_count, int* arr) {
 
 	for (int i = 0; i < arr_count; i++)
 	{
-		if (arr[i] == 1) tmp_arr[1]++;
-		if (arr[i] == 2) tmp_arr[2]++;
-		if (arr[i] == 3) tmp_arr[3]++;
-		if (arr[i] == 4) tmp_arr[4]++;
-		if (arr[i] == 5) tmp_arr[5]++;
+		if (arr[i] == 1) tmp_arr[0]++;
+		if (arr[i] == 2) tmp_arr[1]++;
+		if (arr[i] == 3) tmp_arr[2]++;
+		if (arr[i] == 4) tmp_arr[3]++;
+		if (arr[i] == 5) tmp_arr[4]++;
 	}
 
-	for (int i = 1; i < 5; i++)
+	for (int i = 0; i < 5; i++)
 	{
-		if (tmp_arr[i] > tmp_arr[i + 1]) max = i;
+		if (tmp_arr[i] > tmp_arr[i + 1]) highest = i;
+		if (tmp_arr[i] == tmp_arr[i + 1])
+		{
+			if (tmp_arr[i] < tmp_arr[i + 1])
+			{
+				lowest = i;
+			}
+			else
+			{
+				lowest = i + 1;
+			}
+		}
 	}
 	
 	return max;
