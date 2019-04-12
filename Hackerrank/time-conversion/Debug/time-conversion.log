@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\kouhai\documents\github\hackerrank\hackerrank\time-conversion\main.cpp(28): warning C4018: '<': signed/unsigned mismatch
+c:\users\kouhai\documents\github\hackerrank\hackerrank\time-conversion\main.cpp(47): warning C4018: '<': signed/unsigned mismatch
+  time-conversion.vcxproj -> C:\Users\Kouhai\Documents\GitHub\Hackerrank\Hackerrank\Debug\time-conversion.exe
