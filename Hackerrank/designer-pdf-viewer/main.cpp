@@ -6,13 +6,11 @@ using namespace std;
 
 int designerPdfViewer(int h_count, int* h, char* word) {
 
-	int tmp = 0;
 	int highest_value = 0;
 	int answer = 0;
-	for (int i = 0; i < h_count; i++)
+	for (int i = 0; i < strlen(word); i++)
 	{
-		tmp = (int)word[i] - 96;
-		if (h[tmp] > highest_value) highest_value = h[tmp];
+		if (h[(int)word[i] - 97] > highest_value) highest_value = (h[(int)word[i] - 97]);
 	}
 	answer = highest_value * strlen(word);
 	return answer;
