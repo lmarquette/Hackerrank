@@ -1,0 +1,3 @@
+﻿  main.cpp
+E:\Github\Hackerrank\Hackerrank\finding-digits\main.cpp(17,20): warning C4018:  '<': signed/unsigned mismatch
+  finding-digits.vcxproj -> E:\Github\Hackerrank\Hackerrank\Debug\finding-digits.exe
